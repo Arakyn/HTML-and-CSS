@@ -2,30 +2,40 @@
     background-color: rgb(202, 0, 0);
     color: white;
    border: none;
-  height:34px ;
-  width: 110px;
+ /* height:36.1648px ;
+  width: 112.912px; */
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-radius: 2.5px;
   cursor: pointer;
   margin-right: 8px;
   transition: opacity 100ms;
 }
 .button2{
-border-color: #008CBA;
-border-width: 1px;
+border-color: rgb(6, 95, 212) ;
+border-width: 0.9px;
 border-style: solid;
-height: 34px;
-width: 66px;
-    border-color:#0057ba ;
-    color:#0057ba ;
-    border-radius: 2px;
-    cursor: pointer;
-    margin-right: 8px;
-    transition: background-color 150ms,color 150ms;
-    font-weight: lighter;
+/*height: 36.16px;
+width: 63.721px;*/
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 9px;
+padding-bottom: 9px;
+color:rgb(6, 95, 212) ;
+border-radius: 2px;
+cursor: pointer;
+margin-right: 8px;
+transition: background-color 150ms,color 150ms;
+font-size: 14px;
+font-weight: 400;
+font-family: Arial, Helvetica, sans-serif;
+
    
 }
 .button2:hover {
-    background-color:#0057ba;
+    background-color:rgb(6, 95, 212);
     color: white;
 }
 .button2:active{
@@ -43,21 +53,29 @@ width: 66px;
 .button3 {
     border-style: solid;
     border-width: 1px;
-    width: 70px;
-    height: 34px;
-    border-radius: 20px;
+    /* width: 70px;
+    height: 34px; */
+
+    border-radius: 50px;
     font-weight: bold;
-    background-color: #03a1d6;
-    border-color:  #03a1d6;
+    background-color:#1d9bf0;
+    border-color: #1d9bf0;
     color: white;
     font-size: 15px;
     cursor: pointer;
     transition: opacity 75ms,box-shadow 150ms;
+    letter-spacing: normal;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 15px;
+    vertical-align: top;
    
 }
 .button3:hover{
     
-    box-shadow: 0px 3.5px 1px rgba(0, 0, 0, 0.13);
+    box-shadow: 0px 3.5px 1px rgba(0, 0, 0, 0.097);
 }
 .button3:active{
     opacity: 0.6;
@@ -78,19 +96,44 @@ width: 66px;
 }
 
 .download {
-    height: 34px;
-    width: 100px;
+   /* height: 34px;
+    width: 100px; */
     border-color: rgb(108, 117, 125);
-    border-width: 2px;
+    border-width: 1.5px;
     border-radius: 3px;
     color:  rgb(108,117,125);
     font-weight: bold;
     cursor: pointer;
     margin-left: 8px;
-    border-style: solid;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+ 
 }
 .download:hover{
     border-color:rgb(108, 117, 125);
     background-color:rgb(108, 117, 125) ;
     color: white;
+    border-style: solid;
+}
+
+.stretch{
+    background-color: greenyellow;
+    border: none;
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 500ms;
+}
+.stretch:hover{
+    padding-left: 22.5px;
+    padding-right: 22.5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 18px;
 }
