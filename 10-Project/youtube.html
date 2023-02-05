@@ -1,9 +1,56 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+   
     <style>
+      p{
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 15px;
+        
+    
+
+      }
+      .channel-name{
+        font-size: 12px;
+        margin-left: 47px;
+       font-weight: 400;
+        color: rgb(96,96,96);
+        margin-bottom: 0px;
+        line-height: 18px;
+        display: inline-block;
+        margin-top: -8px;
+
+      }
+      .title{
+       width: 220.8px;
+       margin-left: 7px;
+       margin-top: 0px;
+       font-weight: bold;
+       word-spacing: 1px;
+       line-height: 20px;
+       font-size: 14px;
+       display: inline-block;
+       font-size: 14px;
+       
+      }
+      .channel{
+        margin-top: 12px;
+        border-radius: 50%;
+        width: 35px;
+        margin-right: 0px;
+        padding-right: 0px;
+
+      }
       .thumbnail{
-        width:300px;
+        width: 274px;
       }
       .search-bar{
         margin-top: 10px;
@@ -13,8 +60,13 @@
         padding-left: 15px;
         border-radius: 14px;
         border: solid;
+        border-color : rgb(0,0,0,0.4);
         border-width: 1px;
+        color: black;
      
+      }
+      .search-bar:focus{
+        outline: none;
       }
       .cat1{
         margin-top: 10px;
@@ -35,8 +87,25 @@
     
   </head>
   <body>
-    
-    <img class="thumbnail" src="project/static/sundarpichai.webp" alt="google" ></body>
     <input class="search-bar" type="text" placeholder="Search"><br>
+
+    <img class="thumbnail" src="project/static/sundarpichai.webp" alt="google" >
+  <br>
+    
+    <img class="channel" src="project/static/channel-1.jpeg" alt="channel">
+    
+    
+    <p class="title">
+
+      Talking Tech and AI with Google CEO Sundar Pichai!
+    </p>
+    <br>
+    <p class="channel-name">
+      Marques Brownlee<br>
+      3.4M Views &middot; 6 months ago
+
+    </p>
+
+  </body>
    
     </html>
